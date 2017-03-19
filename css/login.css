@@ -1,0 +1,45 @@
+.logoFont{
+    font-size: 50px;
+    font-stretch: condensed !important;
+    color: darkred;
+    font-family: cursive;
+}
+
+.descriptionFont{
+    font-size: 20px;
+    color: #8c8c8c;
+    font-family: sans-serif;
+}
+
+.logoImage{
+    width: 160px;
+    height: 130px; 	
+}
+
+.loginButton{
+    margin-left: 20px;
+}
+
+#login-alert,#password-alert{
+    height: 10px; 
+    margin-top:26px; 
+    padding-bottom: 25px; 
+    padding-top: 5px; 
+    padding-right: 0px; 
+    padding-left: 0px;
+    width: 370px;
+}
+
+.close{
+    margin-left:-15px;
+    float: left;
+}
+
+.alert label{
+    margin-left: 35px;    
+}
+
+#index-login-alert,#index-password-alert{
+    margin-top: 6px;
+    height: 20px;
+}
