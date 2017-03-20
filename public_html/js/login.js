@@ -15,6 +15,7 @@ function checkLogin(login) {
     }
     else{
         loginOk = true;
+        document.getElementById("index-login-alert").innerHTML = "";
     }
     
     if(loginOk && passOk){        
@@ -37,8 +38,9 @@ function checkPassword(password) {
             document.getElementById("index-password-alert").innerHTML += html;
         }
     }
-    else{
+    else{        
         passOk = true;
+        document.getElementById("index-password-alert").innerHTML = "";
     }
     
     if(loginOk && passOk){

@@ -15,7 +15,7 @@ function checkUsername(username) {
             document.getElementById("register-username-alert").innerHTML += html;
         }
     } else {
-        usernameOk = true;
+        usernameOk = true;        
     }
 
     if (usernameOk && firstnameOk && lastnameOk && emailOk) {
@@ -37,7 +37,7 @@ function checkFirstName(name) {
             document.getElementById("register-firstname-alert").innerHTML += html;
         }
     } else {
-        firstnameOk = true;
+        firstnameOk = true;        
     }
 
     if (usernameOk && firstnameOk && lastnameOk && emailOk) {
@@ -59,7 +59,7 @@ function checkLastName(name) {
             document.getElementById("register-lastname-alert").innerHTML += html;
         }
     } else {
-        lastnameOk = true;
+        lastnameOk = true;        
     }
 
     if (usernameOk && firstnameOk && lastnameOk && emailOk) {
@@ -81,7 +81,7 @@ function checkEmail(email) {
             document.getElementById("register-email-alert").innerHTML += html;
         }
     } else {
-        emailOk = true;
+        emailOk = true;        
     }
 
     if (usernameOk && firstnameOk && lastnameOk && emailOk) {
